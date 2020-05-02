@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/corey/Documents/GitHub/LongestCommonSubsequence/LongestCommonSubsequence.h
+algorithm
+-
+
+/cygdrive/c/Users/corey/Documents/GitHub/LongestCommonSubsequence/TestHelper.h
+chrono
+-
+LongestCommonSubsequence.h
+/cygdrive/c/Users/corey/Documents/GitHub/LongestCommonSubsequence/LongestCommonSubsequence.h
+
+/cygdrive/c/Users/corey/Documents/GitHub/LongestCommonSubsequence/main.cpp
+iostream
+-
+fstream
+-
+cstring
+-
+chrono
+-
+TestHelper.h
+/cygdrive/c/Users/corey/Documents/GitHub/LongestCommonSubsequence/TestHelper.h
+
