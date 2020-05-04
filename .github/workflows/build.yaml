@@ -1,9 +1,9 @@
-name: 20S-3353-PA03
+name: LongestCommonSubsequence
 
 on: [push]
 
 env:
-  EXE_NAME: PA03
+  EXE_NAME: LCS
   ### ***** Students!  Put the name of the input files and output files here.
   ###   List them in the order that they need to appear in Argv param of main.
   ###   Output Files will follow input files
@@ -12,7 +12,7 @@ env:
   ###   Note - 2: If your program requires flags, put them in front of the first 
   ###      input file
   ###      Example: INPUT_FILES: -f input01.txt input02.txt
-  INPUT_FILES:
+  INPUT_FILES: testinput.txt
   OUTPUT_FILES: output.txt
 
 jobs:

@@ -53,14 +53,24 @@ public:
                 }
                 two = strtok(two, " \r\n");
                 //two = tempName;
-                time_point <system_clock> start, end;// declares variables to store system clock time
-                start = system_clock::now(); // stores the current time before the first kruskals begins
                 LongestCommonSubsequence<char> lcs(one, two, length1, length2);
+                time_point <system_clock> start, end;// declares variables to store system clock time
+                start = system_clock::now(); // stores the current time before Recursive Algorithm
+
                 output << "length: " << lcs.lcs_length(0, 0) << endl;
 
                 end = system_clock::now(); // stores the current time right after the first kruskals ends
                 duration<double, milli> elapsed_seconds = end - start; // gets value of seconds between start and end times
-                output << "Default Time: " << elapsed_seconds.count() << " milliseconds" << endl;
+                output << "Recursive Time: " << elapsed_seconds.count() << " milliseconds" << endl;
+                output << endl;
+
+                start = system_clock::now(); // stores the current time before the first kruskals begins
+                output << "length: " << lcs.lcs_lengthIter() << endl;
+
+                end = system_clock::now(); // stores the current time right after the first kruskals ends
+                elapsed_seconds = end - start; // gets value of seconds between start and end times
+                output << "Iter Time: " << elapsed_seconds.count() << " milliseconds" << endl;
+                cout << endl << endl;
             }
 
 

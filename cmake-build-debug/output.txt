@@ -1,4 +1,10 @@
 length: 4
-Default Time: 0.0788 milliseconds
+Recursive Time: 0.15 milliseconds
+
+length: 4
+Iter Time: 0.0186 milliseconds
 length: 3
-Default Time: 6.5461 milliseconds
+Recursive Time: 10.335 milliseconds
+
+length: 3
+Iter Time: 0.0327 milliseconds

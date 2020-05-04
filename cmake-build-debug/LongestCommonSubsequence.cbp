@@ -80,10 +80,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/corey/Documents/GitHub/LongestCommonSubsequence/LongestCommonSubsequence.h">
+			<Option target="LCS"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/corey/Documents/GitHub/LongestCommonSubsequence/TestHelper.h">
+			<Option target="LCS"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/corey/Documents/GitHub/LongestCommonSubsequence/main.cpp">
 			<Option target="LCS"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/corey/Documents/GitHub/LongestCommonSubsequence/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/corey/Documents/GitHub/LongestCommonSubsequence/testinput.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -11,7 +11,7 @@ set (EXE_NAME LCS)
 #   set (input02 "train_target.csv")
 # etc....
 
-set (input01 "")
+set (input01 "testinput.txt")
 set (input02 "")
 set (input03 "")
 set (input04 "")
@@ -24,4 +24,4 @@ configure_file(${file} ${file} COPYONLY)
 endforeach()
 
 set(CMAKE_CXX_STANDARD 17)
-add_executable(${EXE_NAME} main.cpp)
+add_executable(${EXE_NAME} main.cpp TestHelper.h LongestCommonSubsequence.h)
