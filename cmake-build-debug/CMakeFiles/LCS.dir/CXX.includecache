@@ -13,6 +13,8 @@ algorithm
 /cygdrive/c/Users/corey/Documents/GitHub/LongestCommonSubsequence/TestHelper.h
 chrono
 -
+cstring
+-
 LongestCommonSubsequence.h
 /cygdrive/c/Users/corey/Documents/GitHub/LongestCommonSubsequence/LongestCommonSubsequence.h
 
@@ -20,10 +22,6 @@ LongestCommonSubsequence.h
 iostream
 -
 fstream
--
-cstring
--
-chrono
 -
 TestHelper.h
 /cygdrive/c/Users/corey/Documents/GitHub/LongestCommonSubsequence/TestHelper.h

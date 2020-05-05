@@ -7,15 +7,15 @@
 
 #include <algorithm>
 using namespace std;
-template <class T>
+
 class LongestCommonSubsequence{
 private:
-    T* first;
-    T* second;
+    char* first;
+    char* second;
     int size1, size2;
 
 public:
-    LongestCommonSubsequence(T* one, T* two, int s1, int s2){
+    LongestCommonSubsequence(char* one, char* two, int s1, int s2){
         first = one;
         second = two;
         size1 = s1;

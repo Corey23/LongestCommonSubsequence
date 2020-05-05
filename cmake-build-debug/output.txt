@@ -1,10 +1,90 @@
-length: 4
-Recursive Time: 0.15 milliseconds
+Test 1: 
+Line1 - A
+Line2 - B
+
+length: 0
+Recursive Time: 0.0156 milliseconds
+
+length: 0
+Iter Time: 0.0065 milliseconds
+
+Test 2: 
+Line1 - carrot
+Line2 - farrat
 
 length: 4
+Recursive Time: 0.0086 milliseconds
+
+length: 4
+Iter Time: 0.0147 milliseconds
+
+Test 3: 
+Line1 - farrat
+Line2 - carrot
+
+length: 4
+Recursive Time: 0.0088 milliseconds
+
+length: 4
+Iter Time: 0.0065 milliseconds
+
+Test 4: 
+Line1 - CoreyEllis
+Line2 - CoreyEllis
+
+length: 10
+Recursive Time: 0.0157 milliseconds
+
+length: 10
+Iter Time: 0.0075 milliseconds
+
+Test 5: 
+Line1 - antidisestablishmentarianism
+Line2 - abcdefg
+
+length: 3
+Recursive Time: 8.463 milliseconds
+
+length: 3
 Iter Time: 0.0186 milliseconds
-length: 3
-Recursive Time: 10.335 milliseconds
 
-length: 3
-Iter Time: 0.0327 milliseconds
+Test 6: 
+Line1 - AGCTCGCGTGGTGGCTAATAG
+Line2 - TGCGATATCTGCTCAACAGTT
+
+length: 14
+Recursive Time: 7168.93 milliseconds
+
+length: 14
+Iter Time: 0.0265 milliseconds
+
+Test 7: 
+Line1 - TGCGATATCTGCTCAACAGTTAGCTCGCGTGGTGGCTAATAG
+Line2 - TGCGATATCTGCTCAACAGTT
+
+length: 22
+Recursive Time: 0.013 milliseconds
+
+length: 22
+Iter Time: 0.0311 milliseconds
+
+Test 8: 
+Line1 - TGCGATATCTGCTCAACAGTTAGCTCGCGTGGTGGCTAATAG
+Line2 - TGCGTTAGCTAG
+
+length: 12
+Recursive Time: 0.1031 milliseconds
+
+length: 12
+Iter Time: 0.0221 milliseconds
+
+Test 9: 
+Line1 - TGCGATATCTGCTCAACAGTTAGCTCGCGTGGTGGCTAATAG
+Line2 - TCGTXCTG
+
+length: 7
+Recursive Time: 0.1376 milliseconds
+
+length: 7
+Iter Time: 0.0187 milliseconds
+
