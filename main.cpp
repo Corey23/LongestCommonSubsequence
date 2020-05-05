@@ -14,6 +14,7 @@ int main() {
     TestHelper t("testinput.txt");
     ofstream output("output.txt");
     t.runTests(output);
+    output.close();
 
     return 0;
 }

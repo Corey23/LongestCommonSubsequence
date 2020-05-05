@@ -29,7 +29,7 @@ public:
         } else {
             int numtests;
 
-            input >> numtests;
+            input >> numtests; // gets number of tests in document
 
 
 
