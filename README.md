@@ -40,7 +40,7 @@ The most famous issue that the Longest Common Subsequence algorithm solves is ob
     * Despite the diversity of tests, in almost every one the iterative implementation exceeds the performance of the trivial implementation due to its reliance on dynamic programming and bottom-up design.
     
 * **Visualization of Array L in Iterative Implementation**   
-   * int L[6][6]; // example using Test #3 where first = "farrat" and second = "carrot"
+   * int L[7][7]; // example using Test #3 where first = "farrat" and second = "carrot"
    * // run iterative
    <table style="width:100%">
      <tr>
