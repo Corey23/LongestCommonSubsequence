@@ -44,7 +44,7 @@ The most famous issue that the Longest Common Subsequence algorithm solves is ob
    * // run iterative
    <table style="width:100%">
      <tr>
-       char
+       <th>char</th>
        <th>c: col(0)</th>
        <th>a: col(1)</th>
        <th>r: col(2)</th>
